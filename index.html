@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>JavaScript Dom</title>
+  </head>
+  <body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-center mt-5">
+                        <button  id="click" class="bg-info text-white border-top-0 border-bottom-0 border-end-0 rounded-pill p-2" onclick="handleclick()">
+                            Click Event
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script>
+       const handleclick=(e)=>{
+           alert('Test');
+       }
+    </script>
+  </body>
+</html>
