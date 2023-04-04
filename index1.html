@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Dom</title>
+    <script>
+      // document.addEventListener('DOMContentLoaded',()=>{
+      //    //Reference
+      //   const myapp= document.getElementById('app')
+        
+      //   //Get Heading Value
+      //   const heading=myapp.children[0]
+      //   const image=myapp.children[1]
+
+      //   //Consle To Children
+      //   console.log(heading,image);
+
+      //   heading.innerHTML=`<h1>I have Changed To Dom</h1>`;
+      //   console.log(`Image Size:${image.offsetWidth},${image.offsetHeight}`);
+      // })
+
+      // window.addEventListener('load',()=>{
+      //    //Reference
+      //   const myapp= document.getElementById('app')
+        
+      //   //Get Heading Value
+      //   const heading=myapp.children[0]
+      //   const image=myapp.children[1]
+
+      //   //Consle To Children
+      //   console.log(heading,image);
+
+      //   heading.innerHTML=`<h1>I have Changed To Dom</h1>`;
+      //   console.log(`Image Size:${image.offsetWidth},${image.offsetHeight}`);
+      // })
+
+      // window.onload=function(){
+      //     //Reference
+      //     const myapp= document.getElementById('app')
+        
+      //   //Get Heading Value
+      //   const heading=myapp.children[0]
+      //   const image=myapp.children[1]
+
+      //   //Consle To Children
+      //   console.log(heading,image);
+
+      //   heading.innerHTML=`<h1>I have Changed To Dom</h1>`;
+      //   console.log(`Image Size:${image.offsetWidth},${image.offsetHeight}`);
+      // }
+        window.onunload=function(){
+           alert('your all about the load');
+        }
+        window.onbeforeunload=function(){
+           alert('your all about the Beforeunload');
+        }
+   </script>
+  </head>
+  <body>
+
+      <div class="d-flex justify-content-center mt-5" id="app">
+        <h2>Learn HTML DOM in JavaScript</h2>
+        <img src="./assets/img/img.gif" class="img-fluid">
+      </div>
+    
+    <!-- <script>
+       document.addEventListener('DOMContentLoaded',()=>{
+         alert('DOMContentLoaded');
+       })
+    </script> -->
+  </body>
+</html>
